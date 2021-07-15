@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title>CoVidCare - Covid 19</title>
+	<link rel="icon" href="img/hospital.png" type="image/png">
+
+
+	<!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Type Effect JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+
+ 
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <!-- AOS JS Animations -->
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</head>
+<body>
+
+   <!-- Loader Animation -->
+
+<div class="loader_bg">
+  <div class="loader">
+
+  </div>
+</div>
+
+
+ <!-- Nav Bar Section -->
+
+  <section class="navbar-section" id="title">
+
+    <div class="container-fluid navbar-shadow">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand text-dark" href="index.html"><img src="img/send.png"> CoVidCare </a>
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon" style="background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=1729B0');"></span></button>
+
+
+         
+       
+
+       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link main-link text-dark" href="index.html">Main Page</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link text-dark" href="#updates">Corona Updates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#help">Help</a>
+            </li>
+<li class="nav-item">
+              <a class="nav-link text-dark" href="#contact">Contact</a>
+            </li>
+
+            
+
+
+          </ul>
+
+        </div>
+      </nav>
+  </div>
+
+      <!-- Navbar Slider -->
+ <div class="container-fluid slider-section">
+<img src="img/bg.svg" class="slide-head">
+      <div class="row">
+        <div class="col-lg-6" class="slide-left" data-aos="fade-up"
+     data-aos-duration="2500">
+        
+         <h1 class="big-heading">In Pandemic. <span class="middle-heading">Stay Safe.</span> </h1>
+         <h3 class="small-heading">Lets all work together to put an end to this pandemic. <br> Help stop the spread.</h3>
+         <br>
+         <a href="#stats"><button class="btn btn-danger btn-lg slide-button">Statistics</button></a>
+    
+
+     
+
+        </div>
+
+<div class="col-lg-6" class="slide-right" data-aos="fade-down"
+     data-aos-duration="2500">
+
+<img src="img/bg.svg" class="slide-right-img img-fluid">
+
+</div>
+      </div>
+
+            <!-- Navbar Slider -->
+
+    </div>
+
+  </section>
+
+
+   <!-- Nav Bar Section -->
+
+
+
+
+ <!-- Updates Section -->
+
+  <section class="updates-section">
+
+    <div class="container-fluid">
+
+      <h1 id="updates" class="updates-heading" data-aos="fade-up"
+     data-aos-duration="2500">Why is it important <span class="updates-sm-heading">to stay home?</span></h1>
+     
+
+
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down"
+     data-aos-duration="2500">
+
+        <img src="img/doctor-advice.jpg" class="img-fluid">
+         
+    
+
+     
+
+        </div>
+
+
+
+  <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-down"
+     data-aos-duration="2500">
+
+<div class="aboutList">
+	<ol>
+		<li><span>01</span> <p><b>Covid 19</b>, which is now a fast growing global pandemic. The number of confirmed cases worldwide has exceeded 25,65,000 due to rapid spreading of the virus.</p></li>
+
+	<li><span>02</span> <p><b>Covid 19</b>, which is now a fast growing global pandemic. The number of confirmed cases worldwide has exceeded 25,65,000 due to rapid spreading of the virus.</p></li>
+
+		
+
+
+
+	</ol>
+
+
+
+
+    </div>
+      </div>
+
+
+
+
+        
+
+    </div>
+</div>
+  </section>
+
+ <!-- Updates Section -->
+
+
+
+
+  <!-- Help Section -->
+
+ <section class="help-section">
+
+    <div class="container-fluid">
+
+      <h1 id="help" class="help-heading" data-aos="zoom-in" data-aos-duration="2500">Things you could do during the <br> <span class="help-small">Coronavirus Quarantine</h1>
+
+
+<div class="row">
+  
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+<!-- Info section -->
+<div class="infoSection">
+	<div class="infoHeader">
+		
+	</div>
+
+	<div class="infoCards">
+		<div class="card one">
+			<img src="img/card1.png" class="cardoneImg" alt="" data-aos="zoom-in" data-aos-duration="2500">
+			<div class="cardbgone"></div>
+			<div class="cardContent" data-aos="fade-down" data-aos-duration="2500">
+				<h2>Binge Watch</h2>
+				<p>Binge watch all your favorite Tv Shows or Movies during this Quarantine!</p>
+<br>
+				<a href="#">
+					<div class="cardBtn">
+				<img src="img/next.png" width="40" height="40">
+					</div>
+				</a>
+			</div>
+			
+			
+		</div>
+	</div>
+
+
+	
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+<!-- Info section -->
+<div class="infoSection">
+	<div class="infoHeader">
+		
+	</div>
+
+	<div class="infoCards">
+		<div class="card one">
+			<img src="img/card2.png" class="cardoneImg" alt="" data-aos="zoom-in" data-aos-duration="2500">
+			<div class="cardbgone"></div>
+			<div class="cardContent" data-aos="fade-down" data-aos-duration="2500">
+				<h2>Binge Watch</h2>
+				<p>Binge watch all your favorite Tv Shows or Movies during this Quarantine!</p>
+<br>
+				<a href="#">
+					<div class="cardBtn">
+				<img src="img/next.png" width="40" height="40">
+					</div>
+				</a>
+			</div>
+		
+		</div>
+	</div>
+
+
+	
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+<!-- Info section -->
+<div class="infoSection">
+	<div class="infoHeader">
+		
+	</div>
+
+	<div class="infoCards">
+		<div class="card one">
+			<img src="img/card3.png" class="cardoneImg" alt="" data-aos="zoom-in" data-aos-duration="2500">
+			<div class="cardbgone"></div>
+			<div class="cardContent" data-aos="fade-down" data-aos-duration="2500">
+				<h2>Binge Watch</h2>
+				<p>Binge watch all your favorite Tv Shows or Movies during this Quarantine!</p>
+<br>
+				<a href="#">
+					<div class="cardBtn">
+				<img src="img/next.png" width="40" height="40">
+					</div>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+
+
+	
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+  <!-- Help Section -->
+
+
+
+ <!-- Contact Section -->
+
+
+<section class="contact-section stats-section text-dark" id="stats">
+  
+
+
+    <div class="container">
+
+
+
+
+ <h1 id="help" class="help-heading" data-aos="zoom-in" data-aos-duration="2500"><span class="help-small">Covid-19 Statistics</h1>
+  <br><br>
+<table class="table table-hover table-responsive-xl">
+  <thead class="bg-info text-white">
+    <tr>
+      <th scope="col">Flag</th>
+      <th scope="col">Country</th>
+      <th scope="col">Population</th>
+      <th scope="col">Cases</th>
+            <th scope="col">Deaths</th>
+                  <th scope="col">% of Deaths</th>
+                        <th scope="col">Last Updated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="font-weight-bold" data-aos="fade-down" data-aos-duration="3000">
+      <th><img src="img/usa.png"></th>
+      <td>United States</td>
+      <td id="usa-population"></td>
+       <td id="usa-cases"></td>
+        <td id="usa-deaths"></td>
+         <td id="usa-percent"></td>
+          <td id="usa-update"></td>
+
+
+    </tr>
+
+     <tr class="font-weight-bold" data-aos="fade-down" data-aos-duration="3000">
+      <th><img src="img/hungary.png"></th>
+      <td>Hungary</td>
+      <td id="hun-population"></td>
+       <td id="hun-cases"></td>
+        <td id="hun-deaths"></td>
+         <td id="hun-percent"></td>
+          <td id="hun-update"></td>
+
+
+    </tr>
+
+
+     <tr class="font-weight-bold" data-aos="fade-down" data-aos-duration="3000">
+      <th><img src="img/india.png"></th>
+      <td>India</td>
+      <td id="ind-population"></td>
+       <td id="ind-cases"></td>
+        <td id="ind-deaths"></td>
+         <td id="ind-percent"></td>
+          <td id="ind-update"></td>
+
+
+    </tr>
+
+     <tr class="font-weight-bold" data-aos="fade-down" data-aos-duration="3000">
+      <th><img src="img/iran.png"></th>
+      <td>Iran</td>
+      <td id="irn-population"></td>
+       <td id="irn-cases"></td>
+        <td id="irn-deaths"></td>
+         <td id="irn-percent"></td>
+          <td id="irn-update"></td>
+
+
+    </tr>
+
+
+     <tr class="font-weight-bold" data-aos="fade-down" data-aos-duration="3000">
+      <th><img src="img/italy.png"></th>
+      <td>Italy</td>
+      <td id="itl-population"></td>
+       <td id="itl-cases"></td>
+        <td id="itl-deaths"></td>
+         <td id="itl-percent"></td>
+          <td id="itl-update"></td>
+
+
+    </tr>
+    
+  </tbody>
+</table>
+
+  
+
+
+ </div>
+
+
+</section>
+
+    <!-- Contact Section -->
+
+
+
+
+
+    <!-- Contact Section -->
+
+
+<section class="contact-section" id="contact">
+  
+ <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="3000">
+
+        <img src="img/app-right.svg" class="img-fluid app-left">
+     
+
+        </div>
+
+
+
+  <div class="col-lg-6 col-md-6 col-sm-12 app-right" data-aos="fade-down" data-aos-duration="3000">
+<h1 class="app-heading">Download The HealthCare App Today</h1>
+<br>
+<h6>You can see health instructions and Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+</p></h6>
+ <button type="button" class="btn btn-primary btn-lg download-button-ios download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-success btn-lg download-button-android download-button"><i class="fab fa-google-play"></i> Download</button>
+      </div>
+
+ </div>
+ </div>
+</section>
+
+    <!-- Contact Section -->
+<br><br><br>
+
+    <br><br>
+<!-- Footer Section -->
+
+<footer class="footer-section">
+
+<div class="footer-top">
+  
+
+    <div class="container">
+
+
+      <div class="row d-flex align-items-center">
+
+
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0" data-aos="zoom-in" data-aos-duration="3000">
+          <h5 class="mb-0">Get connected with us on social networks!</h5>
+        </div>
+
+
+
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+     
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f mr-4"> </i>
+          </a>
+        
+          <a class="tw-ic">
+            <i class="fab fa-twitter mr-4"> </i>
+          </a>
+      
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g mr-4"> </i>
+          </a>
+       
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in mr-4"> </i>
+          </a>
+
+          <a class="ins-ic">
+            <i class="fab fa-instagram"> </i>
+          </a>
+
+        </div>
+
+
+      </div>
+    
+
+    </div>
+</div>
+
+
+
+
+<div class="footer-body">
+  
+
+
+  <div class="container text-center text-md-left mt-5">
+
+    <div class="row mt-3">
+
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <h6 class="text-uppercase font-weight-bold">Company name</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto footer-underline">
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+
+
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+
+        <h6 class="text-uppercase font-weight-bold">Products</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto footer-underline">
+        <p>
+          <a href="#!">BrandFlow</a>
+        </p>
+        <p>
+          <a href="#!">BrandFlow</a>
+        </p>
+        <p>
+          <a href="#!">BrandFlow</a>
+        </p>
+        <p>
+          <a href="#!">Bootstrap Angular</a>
+        </p>
+
+      </div>
+   
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto footer-underline">
+        <p>
+          <a href="#!">Your Account</a>
+        </p>
+        <p>
+          <a href="#!">Become an Affiliate</a>
+        </p>
+        <p>
+          <a href="#!">Shipping Rates</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+
+      </div>
+   
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto footer-underline">
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+      </div>
+
+
+    </div>
+
+  </div>
+  </div>
+
+
+</footer>
+
+<!-- Footer -->
+
+
+
+
+
+
+<script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript">
+  AOS.init();
+
+</script>
+</body>
+</html>

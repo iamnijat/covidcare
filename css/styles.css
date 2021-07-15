@@ -1,0 +1,538 @@
+
+.loader_bg {
+  position: fixed;
+  z-index: 999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+
+
+.loader:before, .loader:after {
+content: '';
+border: 1em solid #ff5733;
+border-radius: 50%;
+width: inherit;
+height: inherit;
+position: absolute;
+top: 0;
+left: 0;
+animation: loader 2s linear infinite;
+opacity: 0;
+}
+
+.loader:before {
+  animation-delay: .5s;
+}
+
+
+@keyframes loader {
+  0%  {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+   50%  {
+ 
+    opacity: 1;
+  }
+
+   100%  {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+/* Navbar Section */
+
+
+button:focus {
+
+	
+	outline:0;
+
+}
+.navbar-shadow {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.10);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
+.navbar-expand-lg {
+	margin: 0 5% 0 8%;
+}
+.slide-head {
+	display: none;
+}
+.navbar-section {
+	background-color: #fff;
+	font-family: 'Source Sans pro', sans-serif;
+
+}
+.navbar-brand{
+	font-size: 1.7rem;
+    font-weight: bold;
+	
+}
+
+.nav-link {
+	
+font-size: 1.2rem;
+font-weight: 600;
+
+}
+
+.navbar-collapse {
+	margin-right: 5%;
+}
+
+.main-link {
+	color: #e0501b !important;
+}
+
+.navbar-nav{
+	margin-right: 6%;
+}
+
+
+.slider-section {
+padding: 5vw 10vw 0 10vw;
+
+}
+
+.slider-section h3{
+
+margin-top: 5%;
+opacity: 0.9;
+line-height: 30px;
+	}
+
+.big-heading {
+	font-weight: bold;
+	margin-top: 7%;
+}
+.middle-heading {
+	color: #CA2535;
+	font-size: 3.1rem;
+}
+
+.slide-button {
+		border-radius: 45px;
+		text-align: center;
+		width: 180px;
+		font-size: 1.5rem;
+		color: #fff;
+	
+	}
+
+
+
+	/* Updates Section */
+
+
+	.updates-section {
+		margin-top: 10%;
+
+	}
+.updates-section .row {
+	margin-top: 7%;
+	margin-left: 10%;
+	
+}
+
+
+.updates-heading {
+text-align: center;
+}
+
+
+.updates-sm-heading {
+	color: #2f8be0;
+	font-size: 3rem;
+}
+
+.aboutList {
+width: 100%;
+}
+
+ol {
+	list-style: none;
+	color: #e0501b;
+}
+
+ol li{
+	font-size: 34px;
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+ol li p{
+	font-size: 20px;
+	color: #000;
+	padding-left: 60px;
+	line-height: 30px;
+	opacity: 0.8; 
+
+}
+
+ol li b {
+	font-weight: bold;
+	color: #e0501b;
+}
+ol li span {
+	position: absolute;
+
+	font-weight: 600;
+
+}
+
+
+
+/* Help Section */
+
+.help-heading {
+	margin-top: 8%;
+	text-align: center;
+}
+
+.help-small {
+	color: #e0501b;
+}
+
+
+.infoHeader {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.infoCards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px 0 40px 0;
+}
+
+
+.infoCards .card {
+	position: relative;
+	height: 420px;
+	width: 300px;
+	background: #fff;
+	box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09);
+}
+.infoCards .card:hover {
+		box-shadow: 0 4px 15px rgba(44, 46, 65, .15);
+}
+
+.infoCards .one .cardoneImg {
+width: 180px;
+position: absolute;
+top: -50px;
+right: -50px;
+
+}
+
+.cardbgone{
+height: 150px;
+background-color: #ffce63;
+
+
+}
+
+.cardContent {
+	padding: 0 20px;
+}
+.cardContent h2 {
+	font-weight: 600;
+	margin-top: 10%;
+}
+.cardContent p {
+
+	line-height: 30px;
+	opacity: 0.7;
+}
+
+
+.cardContent .cardBtn {
+	position: absolute;
+	right: 20px;
+	padding: 10px;
+
+	width: 70px;
+	height: 40px;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all ease-in-out 0.2s;
+}
+
+
+/* Contact Section */
+
+
+.contact-section {
+	
+	margin-top: 8%; 
+}
+
+.app-heading {
+	color: #E0501B;
+	margin-top: 17%;
+}
+
+
+.download-button-android {
+
+}
+.download-button {
+	margin-top: 2%;
+}
+
+
+
+.stats-section .table {
+
+  
+}
+/* Footer Section */
+
+
+.footer-top {
+  background-color: #38D39F;
+  color: #fff;
+  padding: 2% 0 2% 0;
+}
+
+.footer-section {
+   
+ font-family: 'Source Sans pro', sans-serif;
+}
+
+.footer-section a {
+text-decoration: none;
+
+}
+.footer-text {
+color: #fff;
+ line-height: 1.7;
+}
+
+.footer-underline {
+	width: 60px;
+	background-color: #DC3545;
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 1044px) {
+
+.footer-top {
+  
+  padding: 4% 0 4% 0;
+}
+
+}
+
+
+
+@media (max-width: 991px) {
+
+  .slide-head {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+  	margin-bottom: 10%;
+
+  }
+
+
+  .slide-right-img {
+  	display: none;
+  }
+.slider-section .big-heading {
+text-align: center;
+}
+.slider-section .small-heading {
+text-align: center;
+}
+.slider-section .btn {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
+.updates-section .row {
+
+	margin-right: 20%;
+	
+}
+.updates-section .row .aboutList {
+
+	margin-top: 10%;
+	
+}
+
+.app-left {
+	margin-top: 17%;
+
+}
+
+.updates-heading {
+	margin-top: 20%;
+	padding: 0 4% 0 4%;
+font-size:2.2rem;
+}
+
+.infoCards {
+text-align: center;
+
+}
+
+.updates-sm-heading {
+
+	font-size: 2.5rem;
+}
+
+
+.help-heading {
+	
+	font-size: 2rem;
+		padding: 0 4% 0 4%;
+}
+
+
+.app-heading {
+
+	font-size: 2rem;
+}
+
+.app-right  {
+		margin-top: 5%;
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+.app-right {
+	text-align: center;
+	padding: 0 15% 0 15%;
+}
+
+
+}
+
+
+@media (max-width: 406px) {
+
+
+  .slider-section .big-heading {
+font-size: 2rem;
+}
+.slider-section .middle-heading {
+	font-size: 2.5rem;
+}
+.slider-section .small-heading {
+font-size: 1.4rem;
+}
+.slider-section .btn {
+width: 130px;
+		font-size: 1.3rem;
+}
+
+.updates-heading {
+	
+
+font-size:2rem;
+}
+
+
+.updates-sm-heading {
+
+	font-size: 2.2rem;
+}
+
+.help-heading {
+	
+	font-size: 1.5rem;
+}
+
+ol li{
+	font-size: 22px;
+	
+}
+
+ol li span {
+
+
+}
+.updates-section .row {
+	margin: 0;
+	padding: 0;
+}
+
+
+}
+
+
+@media (max-width: 350px) {
+
+
+  .slider-section .big-heading {
+font-size: 1.4rem;
+}
+.slider-section .middle-heading {
+	font-size: 2rem;
+}
+.slider-section .small-heading {
+font-size: 1.1rem;
+}
+.slider-section .btn {
+width: 120px;
+		font-size: 1.2rem;
+}
+
+
+.updates-heading {
+	
+
+font-size:1.6rem;
+}
+
+
+.updates-sm-heading {
+
+	font-size: 2rem;
+}
+.navbar-brand{
+	font-size: 1.2rem;
+		
+}
+
+
+}
